@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table and Form Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        input[type="text"], input[type="email"] {
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Simple Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Akshat</td>
+            <td>Science</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Kashish</td>
+            <td>Commerce</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Harsh</td>
+            <td>Arts</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+    <h2>Basic Form</h2>
+    <form>
+        <input type="text" placeholder="Enter your name" required><br>
+        <input type="email" placeholder="Enter your email" required><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

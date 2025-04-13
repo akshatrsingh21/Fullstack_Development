@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            text-align: justify;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        figcaption {
+            margin-top: 5px;
+            font-style: italic;
+            color: #555;
+        }
+
+        .styled-button {
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: white;
+            border: 2px solid #0079a1;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .styled-button:hover {
+            background-color: #005f73;
+        }
+
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        table, th, td {
+            border: 1px solid #444;
+        }
+
+        th, td {
+            padding: 10px;
+            background-color: #eef;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 8px 16px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Assignment Page</h1>
+
+    <p>This is the first paragraph, introducing the content of this assignment. It demonstrates how HTML structure and CSS styling can be used effectively.</p>
+
+    <p>This second paragraph continues with more information and is styled using a different font and line height for better readability and design consistency.</p>
+
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Wormhole.png/640px-Wormhole.png" alt="Wormhole">
+        <figcaption>"Embedding diagram" of a Schwarzschild wormhole</figcaption>
+    </figure>
+
+    <button class="styled-button">Click Me!</button>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Occupation</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>24</td>
+            <td>Engineer</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>29</td>
+            <td>Designer</td>
+        </tr>
+    </table>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
